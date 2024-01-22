@@ -5,8 +5,10 @@
 | ------------ | ---- | --- | --- | --- | ---------- | ---------------------------------------------------- | ---------------- |
 | V1_EU_75     | 99%  | 89% | 73% | 31% | 56.691.834 | [V1_EU_75_report](./reports/V1_EU_75_report)         | [V1_EU_75_precision_report](./reports_precision/V1_EU_75_precision_report.txt)  |
 | V1_LSH_BC_75 | 99%  | 95% | 70% | 45% | 82.870.134 | [V1_LSH_BC_75_report](./reports/V1_LSH_BC_75_report) | [V1_LSH_BC_75_precision_report](./reports_precision/V1_LSH_BC_75_precision_report.txt) |
+| V1_HAM_75    | 0%   | 0%  | 0%  | 0%  | 0          | 0                                                    | 0                |
 | V2_EU_75     | 99%  | 97% | 82% | 42% | 84.294.814 | [V1_EU_75_report](./reports/V1_EU_75_report)         | [V2_EU_75_precision_report](./reports_precision/V2_EU_75_precision_report.txt) |
 | V2_LSH_BC_75 | 99%  | 89% | 63% | 35% | 77.201.336 | [V2_LSH_BC_75_report](./reports/V2_LSH_BC_75_report) | [V2_LSH_BC_75_precision_report](./reports_precision/V2_LSH_BC_75_precision_report.txt) |
+| V2_HAM_75    | 1%   | 2%  | 3%  | 4%  | 5          | 6                                                    | 7                |
 
 
 ## Infos 
@@ -38,8 +40,8 @@
 ### Version 2
 
 * **SC (Slice Count)** = Die Gesamtzahl aller Slices. Für eine Variable ist dies die Summe aller Slice-Profile, um den endgültigen Slice zu bilden. Im Falle eines Pfads oder einer Methode repräsentiert dies die Anzahl der Slices für alle in der Methode enthaltenen Variablen. 
-* **SCvg (Slice Coverage)** = Die Größe des Slices im Verhältnis zur Modulgröße, welche in "Lines of Code" gemessen wird. Dabei wird die Anzahl aller Statements einer Variable ins Verhältnis zu den Lines of Code gesetzt. Daraus ergibt sich die Formel \(SCvg = \frac{{SZ}}{{w}}\), wobei \(SZ\) für die Anzahl alles Statements und \(w\) für die Anzahl der Codezeilen steht.
+* **SCvg (Slice Coverage)** = Die Größe des Slices im Verhältnis zur Modulgröße, welche in "Lines of Code" gemessen wird. Dabei wird die Anzahl aller Statements einer Variable ins Verhältnis zu den Lines of Code gesetzt. Daraus ergibt sich die Formel *SCvg = SZ/w*, wobei *SZ* für die Anzahl alles Statements und *w* für die Anzahl der Codezeilen steht.
 * **SI (Slice Identifier)** = Die Anzahl der eindeutigen Bezeichner innerhalb eines Slices wird durch die Bildung der Vereinigung der DVars und CFuncs ermittelt.
-* **SS (Slice Spatial)** = Der räumliche Abstand in LoC zwischen der ersten Definition und der letzten Verwendung der Slicing-Variablen. Dies wird durch \(SS = {({S_l - S_f})}/{{w}}\) berechnet, wobei \(S_f\) für die Zeile der ersten Definition, \(S_l\) für die Zeile der letzten Verwendung und \(w\) für die Anzahl der Codezeilen steht. 
+* **SS (Slice Spatial)** = Der räumliche Abstand in LoC zwischen der ersten Definition und der letzten Verwendung der Slicing-Variablen. Dies wird durch *SS = (S_l - S_f)/w* berechnet, wobei *S_f* für die Zeile der ersten Definition, *S_l* für die Zeile der letzten Verwendung und *w* für die Anzahl der Codezeilen steht. 
 
 
