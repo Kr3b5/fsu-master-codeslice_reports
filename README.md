@@ -8,7 +8,7 @@
 | V1_HAM_75    | 98%  | 85% | 41% | 5% | 4.069.123 | [V1_HAM_75_report](./reports/V1_HAM_75_report)       | [V1_HAM_75_precision_report](./reports_precision/V1_HAM_75_precision_report.txt)  |
 | V2_EU_75     | 99%  | 97% | 82% | 42% | 84.294.814 | [V1_EU_75_report](./reports/V1_EU_75_report)         | [V2_EU_75_precision_report](./reports_precision/V2_EU_75_precision_report.txt) |
 | V2_LSH_BC_75 | 99%  | 89% | 63% | 35% | 77.201.336 | [V2_LSH_BC_75_report](./reports/V2_LSH_BC_75_report) | [V2_LSH_BC_75_precision_report](./reports_precision/V2_LSH_BC_75_precision_report.txt) |
-| V2_HAM_75    | 1%   | 2%  | 3%  | 4%  | 5          | 6                                                    | 7                |
+| V2_HAM_75    | 98%   | 75%  | 28%  | 3%  | 3.019.172  | [V2_HAM_75_report](./reports/V2_HAM_75_report) | [V2_HAM_75_precision_report](./reports_precision/V2_HAM_75_precision_report.txt)  |
 
 
 ## Infos 
