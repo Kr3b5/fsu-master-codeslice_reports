@@ -1,8 +1,12 @@
 # Reports CodeSlicing 
 
+## Großer Benchmark
+
+#### [:bookmark_tabs: Reports + Precisionreports](./reports_BigBench/)
+
 ## Kleiner Benchmark 
 
-| Tool         | VST3 | ST3 | MT3 | T4  | Klone      | Report                                               | Precision_Report |
+| Tool         | VST3 | ST3 | MT3 | T4  | Klone      | Report                                               | Precision_Report (400) |
 | ------------ | ---- | --- | --- | --- | ---------- | ---------------------------------------------------- | ---------------- |
 | V1_EU_75     | 99%  | 89% | 73% | 31% | 56.691.834 | [V1_EU_75_report](./reports/V1_EU_75_report)         | [V1_EU_75_precision_report](./reports_precision/V1_EU_75_precision_report.txt)  |
 | V1_LSH_BC_75 | 99%  | 95% | 70% | 45% | 82.870.134 | [V1_LSH_BC_75_report](./reports/V1_LSH_BC_75_report) | [V1_LSH_BC_75_precision_report](./reports_precision/V1_LSH_BC_75_precision_report.txt) |
@@ -11,19 +15,6 @@
 | V2_LSH_BC_75 | 99%  | 89% | 63% | 35% | 77.201.336 | [V2_LSH_BC_75_report](./reports/V2_LSH_BC_75_report) | [V2_LSH_BC_75_precision_report](./reports_precision/V2_LSH_BC_75_precision_report.txt) |
 | V2_HAM_75    | 98%   | 75%  | 28%  | 3%  | 3.019.172  | [V2_HAM_75_report](./reports/V2_HAM_75_report) | [V2_HAM_75_precision_report](./reports_precision/V2_HAM_75_precision_report.txt)  |
 
-
-## Großer Benchmark
-
-| Tool     | Report     | 
-| -------- | ---------- | 
-| V1_EU_90 | [BB_V1_VAR_EU_T90_report](./reports_BigBench/BB_V1_VAR_EU_T90_report) |
-| V1_EU_94 | [BB_V1_VAR_EU_T94_report](./reports_BigBench/BB_V1_VAR_EU_T94_report) |
-| V1_EU_95 | [BB_V1_VAR_EU_T95_report](./reports_BigBench/BB_V1_VAR_EU_T95_report) |
-| V1_EU_100 | [BB_V1_VAR_EU_T100_report](./reports_BigBench/BB_V1_VAR_EU_T100_report) |
-
-
-
----
 
 ### Infos - Kleiner Benchmark 
 
