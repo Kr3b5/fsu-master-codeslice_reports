@@ -1,5 +1,6 @@
 # Reports CodeSlicing 
 
+## Kleiner Benchmark 
 
 | Tool         | VST3 | ST3 | MT3 | T4  | Klone      | Report                                               | Precision_Report |
 | ------------ | ---- | --- | --- | --- | ---------- | ---------------------------------------------------- | ---------------- |
@@ -11,14 +12,20 @@
 | V2_HAM_75    | 98%   | 75%  | 28%  | 3%  | 3.019.172  | [V2_HAM_75_report](./reports/V2_HAM_75_report) | [V2_HAM_75_precision_report](./reports_precision/V2_HAM_75_precision_report.txt)  |
 
 
-# Reports - Großer Benchmark
+## Großer Benchmark
 
 | Tool     | Report     | 
 | -------- | ---------- | 
+| V1_EU_90 | [BB_V1_VAR_EU_T90_report](./reports_BigBench/BB_V1_VAR_EU_T90_report) |
 | V1_EU_94 | [BB_V1_VAR_EU_T94_report](./reports_BigBench/BB_V1_VAR_EU_T94_report) |
 | V1_EU_95 | [BB_V1_VAR_EU_T95_report](./reports_BigBench/BB_V1_VAR_EU_T95_report) |
+| V1_EU_100 | [BB_V1_VAR_EU_T100_report](./reports_BigBench/BB_V1_VAR_EU_T100_report) |
 
-## Infos 
+
+
+---
+
+### Infos - Kleiner Benchmark 
 
 | Tool         | Version | Vergleichsfunktion | Threshold | mit BucketCleanup? |
 | ------------ | ------- | ------------------ | --------- | ------------------ |
@@ -36,7 +43,7 @@
 | 2       | < SC, SCvg, SI, SS >        | <2, 0.7, 2, 0.9> |
 
 
-### Version 1 
+#### Version 1 
 
 *  **Def** = Die Liste der Zeilen, in denen eine Variable definiert oder neu definiert wird.
 *  **Use** = Die Liste der Zeilen, in denen eine Variable genutzt wird, beispielsweise für eine Berechnung, ohne dass sie dabei verändert wird.
@@ -44,7 +51,7 @@
 *  **Cfuncs** = Die Liste der Funktionen/Methoden, in welcher die Variable als Parameter übergeben wird.
 
 
-### Version 2
+#### Version 2
 
 * **SC (Slice Count)** = Die Gesamtzahl aller Slices. Für eine Variable ist dies die Summe aller Slice-Profile, um den endgültigen Slice zu bilden. Im Falle eines Pfads oder einer Methode repräsentiert dies die Anzahl der Slices für alle in der Methode enthaltenen Variablen. 
 * **SCvg (Slice Coverage)** = Die Größe des Slices im Verhältnis zur Modulgröße, welche in "Lines of Code" gemessen wird. Dabei wird die Anzahl aller Statements einer Variable ins Verhältnis zu den Lines of Code gesetzt. Daraus ergibt sich die Formel *SCvg = SZ/w*, wobei *SZ* für die Anzahl alles Statements und *w* für die Anzahl der Codezeilen steht.
