@@ -11,6 +11,13 @@
 | V2_HAM_75    | 98%   | 75%  | 28%  | 3%  | 3.019.172  | [V2_HAM_75_report](./reports/V2_HAM_75_report) | [V2_HAM_75_precision_report](./reports_precision/V2_HAM_75_precision_report.txt)  |
 
 
+# Reports - Großer Benchmark
+
+| Tool     | Report     | 
+| -------- | ---------- | 
+| V1_EU_94 | [BB_V1_VAR_EU_T94_report](./reports_BigBench/BB_V1_VAR_EU_T94_report) |
+| V1_EU_95 | [BB_V1_VAR_EU_T95_report](./reports_BigBench/BB_V1_VAR_EU_T95_report) |
+
 ## Infos 
 
 | Tool         | Version | Vergleichsfunktion | Threshold | mit BucketCleanup? |
