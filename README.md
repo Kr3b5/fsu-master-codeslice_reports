@@ -20,12 +20,12 @@
 
 | Tool         | Version | Vergleichsfunktion | Threshold | mit BucketCleanup? |
 | ------------ | ------- | ------------------ | --------- | ------------------ |
-| V1_EU_75     | 1       | Euklid             | 75        | -                  |
-| V1_LSH_BC_75 | 1       | LSH + Hamming      | 75        | JA                 |
-| V1_HAM_75    | 1       | Hamming            | 75        | -                  |
-| V2_EU_75     | 2       | Euklid             | 75        | -                  |
-| V2_LSH_BC_75 | 2       | LSH + Hamming      | 75        | JA                 |
-| V2_HAM_75    | 2       | Hamming            | 75        | -                  |
+| V1_EU_75     | 1       | Euklid             | 25        | -                  |
+| V1_LSH_BC_75 | 1       | LSH + Hamming      | 25        | JA                 |
+| V1_HAM_75    | 1       | Hamming            | 25        | -                  |
+| V2_EU_75     | 2       | Euklid             | 25        | -                  |
+| V2_LSH_BC_75 | 2       | LSH + Hamming      | 25        | JA                 |
+| V2_HAM_75    | 2       | Hamming            | 25        | -                  |
 
 
 | Version | Aufbau Vektor               | Beispiel         |
