@@ -4,6 +4,10 @@
 
 #### [:bookmark_tabs: Reports + Precisionreports](./reports_BigBench/)
 
+## Masterarbeit
+
+#### [:bookmark_tabs: Reports](./reports_master_thesis/)
+
 ## Kleiner Benchmark 
 
 | Tool         | VST3 | ST3 | MT3 | T4  | Klone      | Report                                               | Precision_Report (400) |
